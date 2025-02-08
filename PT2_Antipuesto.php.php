@@ -26,6 +26,17 @@
                <div class="content">
                     <h2>library Expansyon cost</h2>
 
+  <?php
+        $expenditures = [
+            "Lumber" => 150000,
+            "Concrete" => 78000,
+            "Drywall" => 69000,
+            "Paint" => 12000,
+            "Miscellaneous" => 20000
+        ];
+
+
+
           <?php
           echo "<table>";
           echo "<tr>
