@@ -44,4 +44,36 @@
                 "Drywall" => 69000,
                 "Paint" => 12000,
                 "Miscellaneous" => 20000
-   
+    ];
+
+            echo "<table>";
+            echo "<tr>
+                    <th>Item</th>     
+                    <th>Estimated Cost</th>
+                    <th>+10%</th>     
+                    <th>+15%</th>
+                    <th>+20%</th>
+                  </tr>";
+
+            foreach ($expenditures as $item => $cost) {
+                $increase10 = $cost * 1.10;
+                $increase15 = $cost * 1.15;
+                $increase20 = $cost * 1.20;
+
+                echo "<tr>
+                        <td>$item</td>
+                        <td>\$" . number_format($cost, 2) . "</td>
+                        <td>\$" . number_format($increase10, 2) . "</td>
+                        <td>\$" . number_format($increase15, 2) . "</td>
+                        <td>\$" . number_format($increase20, 2) . "</td>
+                      </tr>";
+            }
+
+            echo "</table>";
+            ?>
+
+        </div>
+    </div>
+</body>
+</html>
+
