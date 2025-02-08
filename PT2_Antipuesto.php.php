@@ -25,24 +25,26 @@
             padding: 15px;
             border-radius: 5px;
 
-        }
+  }
         table {
 
-
-         width: 75%;
-          margin: auto;
-        border-collapse: collapse;
-         border: 1px solid black;
+       width: 75%;
+            margin: auto;
+            border-collapse: collapse;
+            border: 1px solid black;
             background-color: white;
-      }
-        h1 {
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+        h2 {
             color: blue;
-            font-size: 22px;
+            font-size: 24px;
+            margin-bottom: 5px;
    }
         h3 {
             color: red;
             font-size: 18px;
-      }
+            margin-top: 0;
+        }
         th, td {
             border: 1px solid black;
             padding: 8px;
@@ -50,6 +52,7 @@
         }
         th {
             background-color: #d3d3d3; 
+            font-weight: bold;
   }
         tr:nth-child(even) {
             background-color: #ffffe0;
