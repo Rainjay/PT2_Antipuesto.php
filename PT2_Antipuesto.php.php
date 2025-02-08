@@ -19,6 +19,11 @@
 
             .content {
             background-color: #f0e68c;
+            padding: 15px; 
+    }
+
+             table {
+                 width: 70%;
        
 
 
