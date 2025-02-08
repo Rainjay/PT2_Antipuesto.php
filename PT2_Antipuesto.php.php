@@ -24,7 +24,9 @@
 
              table {
                  width: 70%;
-       
+                 border-collapse: collapse;
+                 border: 2px solid black;
+        }
 
 
    </Style>
