@@ -27,6 +27,11 @@
             border: 2px solid black;
         }
 
+         th {
+            background-color: #808080;
+            color: white;
+        }
+
 
    </Style>
 </head>
@@ -44,10 +49,7 @@
             "Miscellaneous" => 20000
         ];
 
-
-
-          <?php
-          echo "<table>";
+          echo "<table>";x
           echo "<tr>
                <th>item</th>     
                <th>Estimated Cost</th>
