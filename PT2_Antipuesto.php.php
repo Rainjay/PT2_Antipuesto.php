@@ -25,6 +25,19 @@
           <div class="container">
                <div class="content">
                     <h2>library Expansyon cost</h2>
+
+          <?php
+          echo "<table>";
+          echo "<tr>
+               <th>item</th>     
+               <th>Estimated Cost</th>
+               <th>+10%</th>     
+               <th>+15%</th>
+               <th>+20%</th>
+
+
+
+
                </div>
           </div>
      </body>
