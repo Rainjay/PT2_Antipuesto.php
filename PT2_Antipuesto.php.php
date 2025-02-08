@@ -1,31 +1,30 @@
-<!Doctype html>
-<html land="en"
+<!DOCTYPE html>
+<html lang="en">
 <head>
-     <META charset="UTF-8">
-     <title>Library Expansyon</title>
-     <Style>
- 
-           body {
-                font-family: Arial, sans-serif
-                background-color: #f0e68c;
-                Text-align: center;   
-
-           .container {
-               width: 80%;
-               margin: 30px auto;
-               padding: 1px;
-               background-color: #000;
-               border: 2px solid #000:
-
-            .content {
+    <meta charset="UTF-8">
+    <title>Library Expansion</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
             background-color: #f0e68c;
-            padding: 15px; 
-    }
-
-             table {
-                 width: 70%;
-                 border-collapse: collapse;
-                 border: 2px solid black;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 30px auto;
+            padding: 10px;
+            background-color: #000;
+            border: 2px solid #000;
+        }
+        .content {
+            background-color: #f0e68c;
+            padding: 15px;
+        }
+        table {
+            width: 70%;
+            margin: auto;
+            border-collapse: collapse;
+            border: 2px solid black;
         }
 
 
