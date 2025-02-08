@@ -5,26 +5,25 @@
     <title>Library Expansion</title>
     <style>
         body {
-
-
             font-family: Arial, sans-serif;
             background-color: #fff84c;
             text-align: center;
+            margin: 0;
+            padding: 0;
         }
-       .container {
-
-
-
-          width: 80%;
-           margin: 20px auto;
+        .container {
+            width: 80%;
+            margin: 20px auto;
             padding: 10px;
-        background-color: #fff84c;
-            border: 1px solid black;
+            background-color: #fff84c;
+            border: 2px solid black;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
         }
-        .content {
-
+       .content {
             background-color: #f0e68c;
             padding: 15px;
+            border-radius: 5px;
 
         }
         table {
@@ -122,8 +121,9 @@
 
             echo "</table>";
             ?>
-        </div>
-    </div>
+        <div class="footer">
+                Created by: <em>Rainjay Antipuesto</em>
+            </div>
 </body>
 </html>
 
