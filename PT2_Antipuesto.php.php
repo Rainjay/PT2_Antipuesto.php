@@ -17,6 +17,9 @@
                background-color: #000;
                border: 2px solid #000:
 
+            .content {
+            background-color: #f0e68c;
+       
 
 
    </Style>
