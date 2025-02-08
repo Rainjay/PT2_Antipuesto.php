@@ -4,8 +4,28 @@
      <META charset="UTF-8">
      <title>Library Expansyon</title>
      <Style>
-</Style>
+ 
+           body {
+                font-family: Arial, sans-serif
+                background-color: #f0e68c;
+                Text-align: center;   
+
+           .container {
+               width: 80%;
+               margin: 30px auto;
+               padding: 1px;
+               background-color: #000;
+               border: 2px solid #000:
+
+
+
+   </Style>
 </head>
-<body>
-</body>
+     <body>
+          <div class="container">
+               <div class="content">
+                    <h2>library Expansyon cost</h2>
+               </div>
+          </div>
+     </body>
 </html>
